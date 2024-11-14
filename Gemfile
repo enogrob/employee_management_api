@@ -47,3 +47,5 @@ group :development, :test do
 end
 
 
+
+gem "minitest-reporters", "~> 1.7", :group => :test

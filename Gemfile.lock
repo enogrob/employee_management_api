@@ -72,6 +72,7 @@ GEM
       securerandom (>= 0.3)
       tzinfo (~> 2.0, >= 2.0.5)
       uri (>= 0.13.1)
+    ansi (1.5.0)
     ast (2.4.2)
     base64 (0.2.0)
     bcrypt_pbkdf (1.1.1)
@@ -133,6 +134,11 @@ GEM
     marcel (1.0.4)
     mini_mime (1.1.5)
     minitest (5.25.1)
+    minitest-reporters (1.7.1)
+      ansi
+      builder
+      minitest (>= 5.0)
+      ruby-progressbar
     msgpack (1.7.5)
     net-imap (0.5.1)
       date
@@ -316,6 +322,7 @@ DEPENDENCIES
   brakeman
   debug
   kamal
+  minitest-reporters (~> 1.7)
   puma (>= 5.0)
   rails (~> 8.0.0)
   rubocop-rails-omakase
